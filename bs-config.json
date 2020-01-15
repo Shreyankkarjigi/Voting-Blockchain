@@ -1,0 +1,5 @@
+{
+  "server": {
+    "baseDir": ["./C:/xampp/htdocs/election","./src","./build/contracts","./includes"]
+  }
+}

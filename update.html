@@ -1,0 +1,19 @@
+<?php
+include_once'header.php';
+?>
+
+<section class="main-container">
+<div class="main-wrapper">
+<h2><font color="black">Update Information</h2><hr>
+<h1 align="center"><font color="black"><ul>Note:-You can only update Username and email address for now.After updating please verify with local centre for completion of upgradation.If there are no changes in anyone of mentioned, write them as it is.</h1></ul>
+<form class="signup-form" action="includes/signup.inc.php"method="POST">
+
+<input type="text" name="first"placeholder="Firstname (New Username )"> 
+<input type="text" name="last"placeholder="Lastname   (New Lastname)"> 
+<input type="text" name="email"placeholder="E-mail-ID">   
+<input type='submit' name='submit' value='Update' /><hr>
+</form>
+</section>
+<?php
+include_once 'footer.php';
+?>

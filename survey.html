@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+
+<head>
+
+
+    <title>Survey Data</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+<section class="main-container">
+    <div class="main-wrapper">
+
+        <body>
+            <h1 align="center">
+                <font color="gold">
+                    <font align="center">
+                        <font size="7">Please fill this survey before proceeding with voting</font>
+                        <hr>
+                        <marquee type="scroll" style="color: red">This survey data would be used to generate reports, your personal information will remain confidential </marquee>
+                        <hr>
+            </h1>
+            <form action="insert.php" method="post" class="signup-form">
+                <input type="text" name="userrname" value="" id="username" placeholder="Enter your username" required><br>
+
+                <input type="number" name="age" value="age" id="age" placeholder="Enter Age" required><br>
+
+
+                <input type="text" name="gender" value="" id="gender" placeholder="Enter Gender" required><br>
+
+
+                <input type="text" name="location" value="" id="location" placeholder="Enter location" required><br>
+
+    </div>
+    <div class="income">
+
+        <label><font size="5"><font color="gold"><b>Income Category</label></font><br></b>
+        <br>
+        <select name="income">
+                <option value = "1">Less than 2 Lakh</option>
+                <option value = "2">2 To 5 Lakhs</option>
+                <option value = "3">More Than 5 Lakhs</option>
+               
+              </select>
+    </div>
+
+    <div class="education">
+        <br> <label><font size="5" font color="gold">Education</label><br></font>
+
+        <select name="education">
+                <option value = "1">Graduate</option>
+                <option value = "2">Undergraduate</option>
+                
+               
+              </select>
+    </div>
+
+
+    <div class="language">
+        <br> <label><font size="5" font color="gold">Select Language</label><br></font>
+        <select name="language">
+            <option value = "1">English</option>
+            <option value = "2">Hindi</option>
+            
+           
+          </select>
+    </div>
+    <div class="signup-form button">
+        <input type="submit" value="Submit">
+    </div>
+
+
+
+
+    </form>
+
+
+    </body>
+
+    </html>
